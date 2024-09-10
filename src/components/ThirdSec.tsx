@@ -14,7 +14,7 @@ const ThirdSec = () => {
             collapsible
             >
             <AccordionItem value="item-1" className="bg-opacity-75 bg-accordion-bg bg-fill bg-center">
-                <AccordionTrigger className="text-black font-bold py-2 px-4 rounded ">
+                <AccordionTrigger className="text-black  py-2 px-4 rounded ">
                 Architectural Design
                 </AccordionTrigger>
                 <AccordionContent className="text-black mt-2 p-4 bg-opacity-75">
@@ -29,7 +29,7 @@ const ThirdSec = () => {
             collapsible
             >
             <AccordionItem value="item-1" className="bg-opacity-75 bg-accordion-bg bg-fill bg-center">
-                <AccordionTrigger className="text-white font-bold py-2 px-4 rounded ">
+                <AccordionTrigger className="text-white  py-2 px-4 rounded ">
                 Interior Design
                 </AccordionTrigger>
                 <AccordionContent className="text-white mt-2 p-4 bg-opacity-75 ">
@@ -44,8 +44,38 @@ const ThirdSec = () => {
             collapsible
             >
             <AccordionItem value="item-1" className="bg-opacity-75 bg-accordion-bg bg-fill bg-center">
-                <AccordionTrigger className="text-white font-bold py-2 px-4 rounded ">
-                Interior Design
+                <AccordionTrigger className="text-white  py-2 px-4 rounded ">
+                Home Design
+                </AccordionTrigger>
+                <AccordionContent className="text-white mt-2 p-4 bg-opacity-75">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt sunt quibusdam tempora tempore, ipsam impedit facere aliquid earum, maiores hic omnis pariatur autem officiis non maxime vitae blanditiis iste animi ut. Nulla recusandae eos perferendis ipsa dolore non tempore ipsam totam reprehenderit exercitationem natus, nemo neque! Consequatur debitis quod provident itaque ex repellendus, assumenda, doloremque incidunt id quam consectetur dignissimos optio laudantium officiis porro ipsum. Libero at excepturi nulla tenetur! Itaque voluptas distinctio quasi adipisci accusamus, dolores amet reprehenderit? Provident quia maxime natus debitis doloribus nemo, perspiciatis nesciunt blanditiis earum corporis nihil atque quibusdam dolores voluptatum porro ipsum amet. Nostrum!
+                </AccordionContent>
+            </AccordionItem>
+        </Accordion>
+
+        <Accordion 
+            type="single" 
+            className="w-full bg-accordion-bg-3 bg-fill bg-center p-4 bg-opacity-50"
+            collapsible
+            >
+            <AccordionItem value="item-1" className="bg-opacity-75 bg-accordion-bg bg-fill bg-center">
+                <AccordionTrigger className="text-white  py-2 px-4 rounded ">
+                    Infrastructure 
+                </AccordionTrigger>
+                <AccordionContent className="text-white mt-2 p-4 bg-opacity-75">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt sunt quibusdam tempora tempore, ipsam impedit facere aliquid earum, maiores hic omnis pariatur autem officiis non maxime vitae blanditiis iste animi ut. Nulla recusandae eos perferendis ipsa dolore non tempore ipsam totam reprehenderit exercitationem natus, nemo neque! Consequatur debitis quod provident itaque ex repellendus, assumenda, doloremque incidunt id quam consectetur dignissimos optio laudantium officiis porro ipsum. Libero at excepturi nulla tenetur! Itaque voluptas distinctio quasi adipisci accusamus, dolores amet reprehenderit? Provident quia maxime natus debitis doloribus nemo, perspiciatis nesciunt blanditiis earum corporis nihil atque quibusdam dolores voluptatum porro ipsum amet. Nostrum!
+                </AccordionContent>
+            </AccordionItem>
+        </Accordion>
+
+        <Accordion 
+            type="single" 
+            className="w-full bg-accordion-bg-4 bg-fill bg-center p-4 bg-opacity-50"
+            collapsible
+            >
+            <AccordionItem value="item-1" className="bg-opacity-75 bg-accordion-bg bg-fill bg-center">
+                <AccordionTrigger className="text-white  py-2 px-4 rounded ">
+                    Computational 
                 </AccordionTrigger>
                 <AccordionContent className="text-white mt-2 p-4 bg-opacity-75">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt sunt quibusdam tempora tempore, ipsam impedit facere aliquid earum, maiores hic omnis pariatur autem officiis non maxime vitae blanditiis iste animi ut. Nulla recusandae eos perferendis ipsa dolore non tempore ipsam totam reprehenderit exercitationem natus, nemo neque! Consequatur debitis quod provident itaque ex repellendus, assumenda, doloremque incidunt id quam consectetur dignissimos optio laudantium officiis porro ipsum. Libero at excepturi nulla tenetur! Itaque voluptas distinctio quasi adipisci accusamus, dolores amet reprehenderit? Provident quia maxime natus debitis doloribus nemo, perspiciatis nesciunt blanditiis earum corporis nihil atque quibusdam dolores voluptatum porro ipsum amet. Nostrum!

@@ -102,6 +102,8 @@ const config = {
         'accordion-bg': "url('/expertise/architectural_design/archi_1.jpg')",
         'accordion-bg-1': "url('/expertise/architectural_design/archi_2.jpg')",
         'accordion-bg-2': "url('/expertise/interior_design/interior_2.jpg')",
+        'accordion-bg-3': "url('/expertise/interior_design/interior_1.jpg')",
+        'accordion-bg-4': "url('/expertise/computational_design/computational_1.jpg')",
 		},
   	}
   },

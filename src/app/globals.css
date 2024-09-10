@@ -63,7 +63,20 @@
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-background text-foreground;
   }
+}
+
+/* globals.css */
+@font-face {
+  font-family: 'Futura';
+  src: url('/public/futura/FuturaLight.ttf') format('ttf');
+  font-weight: 100;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Futura', sans-serif;
 }

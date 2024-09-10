@@ -1,18 +1,36 @@
+"use client"
+
+import Footer from "@/components/Footer"
 import Hero from "@/components/Hero"
+import Loader from "@/components/Loader"
 import SecondSec from "@/components/SecondSec"
 import ThirdSec from "@/components/ThirdSec"
+import { useState, useEffect } from "react"
 
-const page = () => {
+
+const Page = () => {
+
+  const [isLoading, setIsLoading] = useState(true);
+
+    useEffect(() => {
+      const timer = setTimeout(() => {
+        setIsLoading(false);
+      }, 1000);
+
+      return () => clearTimeout(timer);
+    }, []);
+  
+    if(isLoading) {
+      return <Loader />
+    }
 
   return (
     <div className="">
-      {/* <div className="flex min-h-screen flex-col items-center justify-between p-24">
-        {tasks?.map(({ _id, text }) => <div key={_id}>{text}</div>)}
-      </div> */}
       <Hero />
       <SecondSec />
       <ThirdSec />
+      <Footer />
     </div>
   )
 }
-export default page
+export default Page

@@ -11,7 +11,7 @@ import {
 
 const Header = () => {
     return (
-            <div className="flex max-lg:justify-between items-center w-[calc(100vw-252px)] h-[50px] py-[15px] px-[20px] bg-white w-full">
+            <div className="flex max-lg:justify-between sticky top-0 items-center w-[calc(100vw-252px)] h-[50px] py-[15px] lg:px-[100px] max-sm:px-10 bg-white w-full z-40 ">
                 <div className="lg:mx-[20px] start">
                     <a href="/" className="flex">
                         {/* <Image
@@ -24,22 +24,22 @@ const Header = () => {
                     </a>
                 </div>
                 <div className="flex max-md:hidden">
-                    <ul className="flex gap-5 text-[13.48px] font-semibold items-center">
+                    <ul className="flex gap-5 text-[12px] items-center">
                         <li className="text-black hover:text-blue-400 active:text-blue-400">
                             <a href="/projects">PROJECTS</a>
                         </li>
                         <li className="text-black hover:text-blue-400 active:text-blue-400">
                             <a href="/expertise">EXPERTISE</a>
                         </li>
-                        <li className="text-black hover:text-blue-400 active:text-blue-400">
+                        {/* <li className="text-black hover:text-blue-400 active:text-blue-400">
                             <a href="/insights">INSIGHTS</a>
-                        </li>
+                        </li> */}
                         <li className="text-black hover:text-blue-400 active:text-blue-400">
                             <a href="/about">ABOUT</a>
                         </li>
-                        <li className="text-black hover:text-blue-400 active:text-blue-400">
+                        {/* <li className="text-black hover:text-blue-400 active:text-blue-400">
                             <a href="/news">NEWS</a>
-                        </li>
+                        </li> */}
                     </ul>
                 </div>
 
@@ -55,22 +55,22 @@ const Header = () => {
                         </DropdownMenuTrigger>
                             <DropdownMenuContent>
                                 <DropdownMenuSeparator />
-                                    <ul className="flex gap-5 text-[13.48px] font-semibold items-center flex-col">
+                                    <ul className="flex gap-5 text-[13.48px] items-center flex-col">
                                         <li className="text-black hover:text-blue-400 active:text-blue-400">
                                             <a href="/projects">PROJECTS</a>
                                         </li>
                                         <li className="text-black hover:text-blue-400 active:text-blue-400">
                                             <a href="/expertise">EXPERTISE</a>
                                         </li>
-                                        <li className="text-black hover:text-blue-400 active:text-blue-400">
+                                        {/* <li className="text-black hover:text-blue-400 active:text-blue-400">
                                             <a href="/insights">INSIGHTS</a>
-                                        </li>
+                                        </li> */}
                                         <li className="text-black hover:text-blue-400 active:text-blue-400">
                                             <a href="/about">ABOUT</a>
                                         </li>
-                                        <li className="text-black hover:text-blue-400 active:text-blue-400">
+                                        {/* <li className="text-black hover:text-blue-400 active:text-blue-400">
                                             <a href="/news">NEWS</a>
-                                        </li>
+                                        </li> */}
                                     </ul>
                             </DropdownMenuContent>
                     </DropdownMenu>
