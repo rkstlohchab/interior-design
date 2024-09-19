@@ -1,9 +1,9 @@
+import Log from "@/components/Log"
 import Footer from "@/components/Footer"
 import Hero from "@/components/Hero"
-import Loader from "@/components/Loader"
 import SecondSec from "@/components/SecondSec"
 import ThirdSec from "@/components/ThirdSec"
-import Blog from "@/components/Blog"
+
 import { Separator } from "@/components/ui/separator"
 
 
@@ -17,7 +17,7 @@ export default function Page() {
       <SecondSec />
       <ThirdSec />
       <Separator className="my-10" />
-      <Blog/>
+      <Log />
       <Footer />
       </>
   )

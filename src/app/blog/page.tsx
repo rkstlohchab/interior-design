@@ -1,7 +1,9 @@
-import Blog from "@/components/Blog";
+import Log from "@/components/Log";
+
+
 
 export default function Page() {
-  return <Blog />
+  return <Log/>
 }
 
 export const dynamic = "force-dynamic";

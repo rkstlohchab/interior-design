@@ -16,7 +16,7 @@ import {
 import Loader from "@/components/Loader";
 import AccordinMy from "@/components/expertiseAccordin";
 
-export default function BlogPage() {
+export default function Log() {
   // Fetch the list of expertise entries
   const blogList = useQuery(api.blog.getBlog);
   const router = useRouter();
