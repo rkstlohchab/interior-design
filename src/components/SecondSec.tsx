@@ -8,7 +8,7 @@ export default function SecondSec() {
         <div className="text-center items-center">
           
           <Image
-            src="/Atom2.jpg"
+            src="https://drive.google.com/uc?export=view&id=1xe8Vbb-oMjCJfGGzH3Nf_P4TzCnxXUNY"
             alt="logo"
             width={350}
             height={350}

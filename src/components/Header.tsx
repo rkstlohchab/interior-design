@@ -15,7 +15,7 @@ const Header = () => {
                 <div className="lg:mx-[20px] start">
                     <a href="/" className="flex">
                         <Image
-                            src="/Atom2.jpg"
+                            src="https://drive.google.com/uc?export=view&id=1xe8Vbb-oMjCJfGGzH3Nf_P4TzCnxXUNY"
                             alt="logo"
                             width={100}
                             height={100}
