@@ -22,6 +22,7 @@ export default function Page() {
   // Fetch the list of expertise entries
   const blogList = useQuery(api.blog.getBlog);
   const router = useRouter();
+
   if (!blogList) {
     return <Loader />;
   }
