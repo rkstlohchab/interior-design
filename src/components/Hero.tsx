@@ -62,7 +62,7 @@ const Hero = () => {
             {projectsList?.map((project, index) => (
                 <div
                     key={index}
-                    ref={el => imageRefs.current[index] = el}
+                    ref={el => {imageRefs.current[index] = el}}
                     className="w-full lg:h-full absolute top-0 left-0 flex justify-center items-center overflow-hidden max-lg:h-[40vh]"
                     style={{ zIndex: index }} // Ensure proper stacking order
                 >
