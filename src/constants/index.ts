@@ -3,5 +3,5 @@ export const navLinks = [
     { label: 'EXPERTISE', href: '/expertise' },
     { label: 'INSIGHTS', href: '/insights' },
     { label: 'ABOUT', href: '/about' },
-    { label: 'NEWS', href: '/news' },
+    { label: 'BLOG', href: '/blog' },
 ];

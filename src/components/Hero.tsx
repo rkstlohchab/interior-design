@@ -3,18 +3,17 @@
 import React, { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import Image from 'next/image';
+import { useQuery } from "convex/react";
+import { api } from "@/../convex/_generated/api";
 
 const Hero = () => {
+    const projectsList = useQuery(api.projects.getProjects);
+
     const imageRefs = useRef<Array<HTMLDivElement | null>>([]);
 
-    const images = [
-        `/expertise/architectural_design/archi_1.jpg`,
-        `/expertise/architectural_design/archi_2.jpg`,
-        `/expertise/architectural_design/archi_3.jpg`,
-    ];
-
-
     useEffect(() => {
+        if (!projectsList) return; // Return early if projectsList is not loaded yet
+
         const tl = gsap.timeline({ repeat: -1 });
 
         imageRefs.current.forEach((imageElement, index) => {
@@ -24,24 +23,24 @@ const Hero = () => {
                     { x: '-50%', scale: 0.7, opacity: "0%" },
                     {
                         x: '0%',
-                        duration: 1.7,
-                        ease: 'power2.out',
+                        duration: 1.1,
+                        ease: 'power2.inOut',
                         opacity: "100%",
                     }
                 ).to(
                     imageElement,
                     {
                         scale: 1.05,
-                        duration: 1.5,
+                        duration: 1.3,
                         ease:  "power2.inOut",
                     }
                 ).to(
                     imageElement,
                     {
                         scale: 1.1,
-                        duration: 1.5,
+                        duration: 1.3,
                         ease:  "power2.inOut",
-                    },"<"
+                    }, "<"
                 ).to(
                     imageElement, 
                     { 
@@ -50,21 +49,25 @@ const Hero = () => {
                 );
             }
         });
-    }, []);
 
+        return () => {
+            tl.kill(); // Cleanup the timeline when the component unmounts or updates
+        };
+    }, [projectsList]); // Re-run the animation only when projectsList changes
+    
     return (
         <div 
-            className="lg:w-screen lg:h-screen relative overflow-hidden flex items-center justify-center m-0 p-0 box-border max-lg:h-[40vh]"
+            className="lg:w-screen lg:h-svh relative overflow-hidden flex items-center justify-center m-0 p-0 box-border max-lg:h-[40vh]"
         >
-            {images.map((src, index) => (
+            {projectsList?.map((project, index) => (
                 <div
                     key={index}
                     ref={el => imageRefs.current[index] = el}
-                    className="w-full h-full absolute top-0 left-0 flex justify-center items-center overflow-hidden max-lg:h-[40vh]"
+                    className="w-full lg:h-full absolute top-0 left-0 flex justify-center items-center overflow-hidden max-lg:h-[40vh]"
                     style={{ zIndex: index }} // Ensure proper stacking order
                 >
                     <Image 
-                        src={src} 
+                        src={project.projectImages[0]} 
                         alt={`Hero Image ${index + 1}`} 
                         layout="fill"
                         objectFit="cover" // Cover ensures the image fills the container while maintaining aspect ratio

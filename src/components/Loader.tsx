@@ -1,16 +1,19 @@
-import { helix } from 'ldrs'
+import { zoomies } from 'ldrs'
+import Image from 'next/image'
 
 const Loader = () => {
-    helix.register()
+  zoomies.register()
   return (
-        <div className="w-screen h-screen flex items-center justify-center">
-          <l-helix
-            size="45"
-            speed="2.5" 
-            color="black" 
-          >
-          </l-helix>
-        </div>
+    <div className="z-10 flex flex-col items-center justify-center w-screen h-screen gap-2">
+      <Image src="/Atom2.jpg" width={100} height={100} alt="logo" />
+      <l-zoomies
+        size="100"
+        stroke="3"
+        bg-opacity="0.1"
+        speed="2"
+        color="black" 
+      ></l-zoomies>
+    </div>
   )
 }
 export default Loader

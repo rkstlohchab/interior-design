@@ -2,7 +2,7 @@ import { defineSchema, defineTable } from "convex/server";
 import { v } from "convex/values";
 
 export default defineSchema({
-  expertise: defineTable({
+  blog: defineTable({
     title: v.string(),
     description: v.string(),
     image: v.string(), // This assumes image is stored as URL or file path. Adjust it as per your implementation

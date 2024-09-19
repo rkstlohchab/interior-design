@@ -9,7 +9,7 @@ import { Button } from "@/components/ui/button";
 
 export default function Add() {
   // Create a mutation hook for addExpertise
-  const addExpertiseMutation = useMutation(api.expertise.addExpertise);
+  const addExpertiseMutation = useMutation(api.blog.addBlog);
   const addProjectsMutation = useMutation(api.projects.addProject);
 
   // State for form inputs
@@ -26,18 +26,30 @@ export default function Add() {
   const handleAddExpertise = async (e: React.FormEvent) => {
     e.preventDefault(); // Prevent page reload on form submission
     try {
-      const result = await addExpertiseMutation({ title, description, image });
-      console.log("Expertise added:", result);
+      const regex = /\/d\/([a-zA-Z0-9_-]+)\//;
+      const match = image.match(regex);
+      
+      const newImg = match && match[1] ? `https://drive.google.com/uc?export=view&id=${match[1]}` : "";
+      const result = await addExpertiseMutation({ title, description, image: newImg });
+
+      console.log("Blog added:", result);
     } catch (error) {
-      console.error("Error adding expertise:", error);
+      console.error("Error adding blog:", error);
     }
   };
 
   // Handle adding a new image URL to the projectImages array
   const handleAddImage = () => {
-    if (currentImage) {
-      setProjectImages((prevImages) => [...prevImages, currentImage]);
+    const regex = /\/d\/([a-zA-Z0-9_-]+)\//;
+    const match = currentImage.match(regex);
+    
+    if (match && match[1]) {
+      const imageId = `https://drive.google.com/uc?export=view&id=${match[1]}`;
+      setProjectImages((prevImages) => [...prevImages, imageId]);
       setCurrentImage(""); // Clear the input after adding
+    } else {
+      // Return null if the format is incorrect or the ID is not found
+      return null;
     }
   };
 
@@ -52,10 +64,11 @@ export default function Add() {
     }
   };
 
+
   return (
     <div className="p-5 w-screen h-screen">
       <form onSubmit={handleAddExpertise} className="h-1/2">
-        <h1 className="text-center w-full text-2xl font-bold">Add Expertise</h1>
+        <h1 className="text-center w-full text-2xl font-bold">Add Blog</h1>
         <div>
           <label>Title:</label>
           <Input
@@ -80,7 +93,7 @@ export default function Add() {
             placeholder="Enter image URL"
           />
         </div>
-        <Button type="submit" className="mt-2">Add Expertise</Button>
+        <Button type="submit" className="mt-2">Add Blog</Button>
       </form>
 
       <form onSubmit={handleAddProjects} className="h-1/2">

@@ -11,19 +11,18 @@ import {
 
 const Header = () => {
     return (
-            <div className="flex max-lg:justify-between sticky top-0 items-center w-[calc(100vw-252px)] h-[50px] py-[15px] lg:px-[100px] max-sm:px-10 bg-white w-full z-40 ">
+            <div className="flex max-lg:justify-between sticky top-0 items-center w-full h-[50px] py-[15px] lg:px-[100px] max-sm:px-10 bg-white z-40 ">
                 <div className="lg:mx-[20px] start">
                     <a href="/" className="flex">
-                        {/* <Image
-                            src="https://upload.wikimedia.org/wikipedia/commons/2/27/Nikken_Sekkei_company_logo.svg"
+                        <Image
+                            src="/Atom2.jpg"
                             alt="logo"
                             width={100}
                             height={100}
-                        /> */}
-                        Logo
+                        />
                     </a>
                 </div>
-                <div className="flex max-md:hidden">
+                <div className="flex w-full max-lg:hidden justify-between">
                     <ul className="flex gap-5 text-[12px] items-center">
                         <li className="text-black hover:text-blue-400 active:text-blue-400">
                             <a href="/projects">PROJECTS</a>
@@ -37,9 +36,14 @@ const Header = () => {
                         <li className="text-black hover:text-blue-400 active:text-blue-400">
                             <a href="/about">ABOUT</a>
                         </li>
-                        {/* <li className="text-black hover:text-blue-400 active:text-blue-400">
-                            <a href="/news">NEWS</a>
-                        </li> */}
+                        <li className="text-black hover:text-blue-400 active:text-blue-400">
+                            <a href="/blog">BLOG</a>
+                        </li>
+                    </ul>
+                    <ul className="flex text-[12px] items-center">
+                        <li className="text-black hover:text-blue-400 active:text-blue-400">
+                            <a href="/contactus">CONTACT US</a>
+                        </li>
                     </ul>
                 </div>
 
@@ -68,9 +72,12 @@ const Header = () => {
                                         <li className="text-black hover:text-blue-400 active:text-blue-400">
                                             <a href="/about">ABOUT</a>
                                         </li>
-                                        {/* <li className="text-black hover:text-blue-400 active:text-blue-400">
-                                            <a href="/news">NEWS</a>
-                                        </li> */}
+                                        <li className="text-black hover:text-blue-400 active:text-blue-400">
+                                            <a href="/blog">BLOG</a>
+                                        </li>
+                                        <li className="text-black hover:text-blue-400 active:text-blue-400">
+                                            <a href="/contactus">CONTACT US</a>
+                                        </li>
                                     </ul>
                             </DropdownMenuContent>
                     </DropdownMenu>

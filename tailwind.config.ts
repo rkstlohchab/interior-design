@@ -99,11 +99,13 @@ const config = {
   			'accordion-up': 'accordion-up 0.2s ease-out'
   		},
 		backgroundImage: {
-        'accordion-bg': "url('/expertise/architectural_design/archi_1.jpg')",
-        'accordion-bg-1': "url('/expertise/architectural_design/archi_2.jpg')",
-        'accordion-bg-2': "url('/expertise/interior_design/interior_2.jpg')",
-        'accordion-bg-3': "url('/expertise/interior_design/interior_1.jpg')",
-        'accordion-bg-4': "url('/expertise/computational_design/computational_1.jpg')",
+        'accordion-bg': "url('/Architecture.jpg')",
+        'accordion-bg-1': "url('/Interior.jpg')",
+        'accordion-bg-2': "url('/Civil.jpg')",
+        'accordion-bg-3': "url('/Landspace.jpg')",
+        'accordion-bg-4': "url('/Urban.jpg')",
+        'accordion-bg-5': "url('/Structural.png')",
+        'accordion-bg-6': "url('/Solution.jpg')",
 		},
   	}
   },
