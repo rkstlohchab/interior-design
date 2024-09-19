@@ -1,9 +1,7 @@
 import AccordinMy from "./expertiseAccordin";
 
-const ThirdSec = () => {
+export default function ThirdSec() {
   return (
     <AccordinMy />
   );
 };
-
-export default ThirdSec;

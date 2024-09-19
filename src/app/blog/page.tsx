@@ -1,8 +1,7 @@
-import Blog from "@/components/blog"
+import Blog from "@/components/Blog";
 
-const page = () => {
-  return (
-    <Blog />
-  )
+export default function Page() {
+  return <Blog />
 }
-export default page
+
+export const dynamic = "force-dynamic";

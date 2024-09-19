@@ -5,9 +5,11 @@ import { gsap } from 'gsap';
 import Image from 'next/image';
 import { useQuery } from "convex/react";
 import { api } from "@/../convex/_generated/api";
+import Loader from './Loader';
 
 const Hero = () => {
     const projectsList = useQuery(api.projects.getProjects);
+
 
     const imageRefs = useRef<Array<HTMLDivElement | null>>([]);
 
@@ -55,6 +57,9 @@ const Hero = () => {
         };
     }, [projectsList]); // Re-run the animation only when projectsList changes
     
+    if (!projectsList) {
+        return <Loader />;
+    }
     return (
         <div 
             className="lg:w-screen lg:h-svh relative overflow-hidden flex items-center justify-center m-0 p-0 box-border max-lg:h-[40vh]"
