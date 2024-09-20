@@ -1,6 +1,7 @@
-import Log from "@/components/Log"
+
 import Footer from "@/components/Footer"
 import Hero from "@/components/Hero"
+import Log from "@/components/Log"
 import SecondSec from "@/components/SecondSec"
 import ThirdSec from "@/components/ThirdSec"
 

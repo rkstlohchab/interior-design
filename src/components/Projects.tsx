@@ -43,7 +43,7 @@ export default function Projects() {
                         <Image
                             src={project.projectImages[0]}
                             alt={project.projectTitle}
-                            width={350} height={210} className="w-[350px] h-[210px]"
+                            width={350} height={210} className="w-[350px] max-lg:h-[170px] lg:h-[210px]"
                         />
                         <CardTitle className="font-normal ">{project.projectTitle}</CardTitle>
                         <CardDescription className="">{project.projectDescription.split(' ').slice(0, 3).join(' ')}</CardDescription>

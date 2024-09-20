@@ -74,10 +74,9 @@ const Hero = () => {
                     <Image 
                         src={project.projectImages[0]} 
                         alt={`Hero Image ${index + 1}`} 
-                        layout="fill"
-                        objectFit="cover" // Cover ensures the image fills the container while maintaining aspect ratio
-                        quality={100}
-                        priority={index === 0} 
+                        layout='fill'
+                        objectFit='cover'
+                        quality={70}
                     />
                 </div>
             ))}
