@@ -55,7 +55,7 @@ export default function ProjectDetails({ params }: any ) {
                     <CarouselPrevious className="max-lg:hidden"/>
 
                     <CarouselContent className="justify-center items-center">
-                    {project.projectImages.map((image: string, index: number) => (
+                    {project.projectImages?.map((image, index) => (
                         <CarouselItem key={index}>
                             <div className="flex justify-center items-center">
                                 <Image src={image} alt={project.projectTitle} width={300} height={200} className="max-md:w-[70%] max-md:items-center max-md:justify-center"/>
