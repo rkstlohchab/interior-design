@@ -26,8 +26,8 @@ const Page = () => {
 
       <h1 className="text-2xl my-5">Brand vision</h1>
       <p>
-        We're skilled at combining everything necessary to turn our clients'
-        ideas into reality. We've been dedicated to hearing out their ideas,
+        We&apos;re skilled at combining everything necessary to turn our clients&apos;
+        ideas into reality. We&apos;ve been dedicated to hearing out their ideas,
         learning their vision, and working together to create efficient spaces,
         live environments, and practical design. We draw new paths by blending
         experience, creativity, craftsmanship, and passion to deliver results

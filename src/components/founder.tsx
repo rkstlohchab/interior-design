@@ -14,7 +14,7 @@ const Founder = () => {
             />
         </div>
         <div className="max-lg:w-full lg:w-1/2 max-lg:py-10">
-            <p className="max-lg:text-[14px]">Having completed both a Bachelor's and Master's degree
+            <p className="max-lg:text-[14px]">Having completed both a Bachelor&apos;s and Master&apos;s degree
                 in Civil Engineering, with my thesis centered entirely on
                 genuine problem-solving, my journey commenced as an
                 engineer. Driven by my love for design, I transitioned to
@@ -22,7 +22,7 @@ const Founder = () => {
                 Since 2017, I have led a talented team of architects, civil
                 engineers, and interior designers. We aim to create
                 personalized designs that align with my values and our
-                company's unique offerings. Through our fusion of
+                company&apos;s unique offerings. Through our fusion of
                 innovation and aesthetic sensibility, we provide people
                 with an exceptional design experience that they will<br/>
                 remember.
