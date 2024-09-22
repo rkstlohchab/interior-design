@@ -7,46 +7,47 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
+import { Button } from "./ui/button";
 
 
 const Header = () => {
     return (
-            <div className="flex max-lg:justify-between sticky top-0 items-center w-full h-[50px] py-[15px] lg:px-[100px] max-sm:px-10 bg-white z-40 ">
+            <div className="flex max-lg:justify-between sticky top-0 items-center w-full h-[50px] py-[15px] lg:px-[100px] max-sm:px-10 bg-white z-40">
                 <div className="lg:mx-[20px] start">
                     <a href="/" className="flex">
                         <Image
-                            src="https://drive.google.com/uc?export=view&id=1xe8Vbb-oMjCJfGGzH3Nf_P4TzCnxXUNY"
+                            src="https://drive.google.com/uc?export=view&id=1zdS_pKYo6VjlgN53JF0j44vZTN687oox"
                             alt="logo"
                             width={100}
                             height={100}
+                            quality={40}
                         />
                     </a>
                 </div>
                 <div className="flex w-full max-lg:hidden justify-between">
                     <ul className="flex gap-5 text-[12px] items-center">
-                        <li className="text-black hover:text-blue-400 active:text-blue-400">
+                        <li className="text-black hover:text-orange-400 active:text-orange-400">
                             <a href="/projects">PROJECTS</a>
                         </li>
-                        <li className="text-black hover:text-blue-400 active:text-blue-400">
+                        <li className="text-black hover:text-orange-400 active:text-orange-400">
                             <a href="/expertise">EXPERTISE</a>
                         </li>
                         {/* <li className="text-black hover:text-blue-400 active:text-blue-400">
                             <a href="/insights">INSIGHTS</a>
                         </li> */}
-                        <li className="text-black hover:text-blue-400 active:text-blue-400">
+                        <li className="text-black hover:text-orange-400 active:text-orange-400">
                             <a href="/about">ABOUT</a>
                         </li>
-                        <li className="text-black hover:text-blue-400 active:text-blue-400">
+                        <li className="text-black hover:text-orange-400 active:text-orange-400">
                             <a href="/blog">BLOG</a>
                         </li>
                     </ul>
                     <ul className="flex text-[12px] items-center">
                         <li className="text-black hover:text-blue-400 active:text-blue-400">
-                            <a href="/contactus">CONTACT US</a>
+                            <Button className="bg-orange-500"><a href="https://forms.gle/YDVrxun83nFkhJst6">CONTACT US</a></Button>
                         </li>
                     </ul>
                 </div>
-
                 <div className="lg:hidden flex w-10">
                     <DropdownMenu>
                         <DropdownMenuTrigger>
@@ -55,28 +56,29 @@ const Header = () => {
                                 alt="menu"
                                 width={20}
                                 height={20}
+                                quality={40}
                             />
                         </DropdownMenuTrigger>
                             <DropdownMenuContent>
                                 <DropdownMenuSeparator />
                                     <ul className="flex gap-5 text-[13.48px] items-center flex-col">
-                                        <li className="text-black hover:text-blue-400 active:text-blue-400">
+                                        <li className="text-black hover:text-orange-400 active:text-orange-400">
                                             <a href="/projects">PROJECTS</a>
                                         </li>
-                                        <li className="text-black hover:text-blue-400 active:text-blue-400">
+                                        <li className="text-black hover:text-orange-400 active:text-orange-400">
                                             <a href="/expertise">EXPERTISE</a>
                                         </li>
                                         {/* <li className="text-black hover:text-blue-400 active:text-blue-400">
                                             <a href="/insights">INSIGHTS</a>
                                         </li> */}
-                                        <li className="text-black hover:text-blue-400 active:text-blue-400">
+                                        <li className="text-black hover:text-orange-400 active:text-orange-400">
                                             <a href="/about">ABOUT</a>
                                         </li>
-                                        <li className="text-black hover:text-blue-400 active:text-blue-400">
+                                        <li className="text-black hover:text-orange-400 active:text-orange-400">
                                             <a href="/blog">BLOG</a>
                                         </li>
-                                        <li className="text-black hover:text-blue-400 active:text-blue-400">
-                                            <a href="/contactus">CONTACT US</a>
+                                        <li className="text-black hover:text-orange-400 active:text-orange-400">
+                                            <a href="https://forms.gle/YDVrxun83nFkhJst6">CONTACT US</a>
                                         </li>
                                     </ul>
                             </DropdownMenuContent>

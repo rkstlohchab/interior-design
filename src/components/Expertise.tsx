@@ -30,7 +30,8 @@ export default function Expertise() {
   };
   return (
     <>
-    <div className="lg:px-[120px] lg:py-[30px] max-sm:px-10 max-sm:py-5"></div>
+    <div className="lg:px-[120px] lg:py-[30px] max-sm:px-10 max-sm:py-5">
+    </div>
     <div className="lg:px-[120px] lg:py-[30px] max-sm:px-10 max-sm:py-5">
       <h1 className="w-full text-start text-2xl my-5">Our Expertise</h1>
       <p>
@@ -54,7 +55,7 @@ export default function Expertise() {
           onClick={() => handleCardClick(blog._id)}
         >
             <CardHeader className="gap-2 lg:mr-10 lg:my-10 max-sm:mt-8">
-                <Image src={blog.image} alt="abc" width={350} height={210} className="w-[350px] h-[210px]"/>
+                <Image src={blog.image} alt="abc" width={350} height={210} className="w-[350px] h-[210px]" quality={40}/>
                 <CardTitle className="font-normal">{blog.title}</CardTitle>
                 <CardDescription className="">{blog.description.split(' ').slice(0, 3).join(' ')}</CardDescription>
             </CardHeader>

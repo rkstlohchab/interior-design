@@ -104,34 +104,6 @@ const AccordinMy = () => {
 
       <Accordion
         type="single"
-        className="w-full bg-accordion-bg-3 bg-fill bg-center p-4 bg-opacity-50"
-        collapsible
-      >
-        <AccordionItem
-          value="item-1"
-          className="bg-opacity-75 bg-accordion-bg-3 bg-fill bg-center"
-        >
-          <AccordionTrigger className="text-gray-200 stroke-black  py-2 px-4 rounded ">
-            Landscape
-          </AccordionTrigger>
-          <AccordionContent className="text-gray-200 stroke-black mt-2 lg:p-20 max-lg:p-4 bg-opacity-75">
-            As the world changes rapidly, people are paying more attention to
-            the connection between humans and nature, and landscape design is
-            key to this. Atom Design has excellent landscape design abilities,
-            influenced by India&apos;s unique blend of history and nature. We
-            use these skills for landscape projects worldwide, from small
-            gardens to big public spaces. Our goal is to improve the lives of
-            local communities, bring life back to cities, and create lively
-            places to live. We do this by combining expert knowledge from
-            different fields with our technology to create landscapes that
-            reflect local nature and culture. Our landscape projects have had
-            significant impacts on the environment, economy, and society.
-          </AccordionContent>
-        </AccordionItem>
-      </Accordion>
-
-      <Accordion
-        type="single"
         className="w-full bg-accordion-bg-4 bg-fill bg-center p-4 bg-opacity-50"
         collapsible
       >
@@ -190,6 +162,34 @@ const AccordinMy = () => {
 
       <Accordion
         type="single"
+        className="w-full bg-accordion-bg-3 bg-fill bg-center p-4 bg-opacity-50"
+        collapsible
+      >
+        <AccordionItem
+          value="item-1"
+          className="bg-opacity-75 bg-accordion-bg-3 bg-fill bg-center"
+        >
+          <AccordionTrigger className="text-gray-200 stroke-black  py-2 px-4 rounded ">
+            Landscape
+          </AccordionTrigger>
+          <AccordionContent className="text-gray-200 stroke-black mt-2 lg:p-20 max-lg:p-4 bg-opacity-75">
+            As the world changes rapidly, people are paying more attention to
+            the connection between humans and nature, and landscape design is
+            key to this. Atom Design has excellent landscape design abilities,
+            influenced by India&apos;s unique blend of history and nature. We
+            use these skills for landscape projects worldwide, from small
+            gardens to big public spaces. Our goal is to improve the lives of
+            local communities, bring life back to cities, and create lively
+            places to live. We do this by combining expert knowledge from
+            different fields with our technology to create landscapes that
+            reflect local nature and culture. Our landscape projects have had
+            significant impacts on the environment, economy, and society.
+          </AccordionContent>
+        </AccordionItem>
+      </Accordion>
+
+      <Accordion
+        type="single"
         className="w-full bg-accordion-bg-6 bg-fill bg-center p-4 bg-opacity-50"
         collapsible
       >
@@ -205,6 +205,24 @@ const AccordinMy = () => {
 Activity design makes sure spaces are fun and innovative. Workplace design uses our knowledge of architecture and space to create cool places where people can share ideas.
 We also focus on making buildings safer by analysing their structure and suggesting improvements. And we help the environment by checking energy use and suggesting ways to save energy
 
+          </AccordionContent>
+        </AccordionItem>
+      </Accordion>
+
+      <Accordion
+        type="single"
+        className="w-full bg-accordion-bg-1 bg-fill bg-center p-4 bg-opacity-50"
+        collapsible
+      >
+        <AccordionItem
+          value="item-1"
+          className="bg-opacity-75 bg-accordion-bg-1 bg-fill bg-center"
+        >
+          <AccordionTrigger className="text-white  py-2 px-4 rounded ">
+            Consultancy
+          </AccordionTrigger>
+          <AccordionContent className="text-white mt-2 p-4 bg-opacity-75">
+            Atom Designs offers expert consultancy in telephonic and on-site supervision for a wide range of projects. Our services ensure precision in execution, from conceptualization to completion. We specialize in guiding design implementations, providing real-time support, and ensuring projects align with client expectations and industry standards.
           </AccordionContent>
         </AccordionItem>
       </Accordion>

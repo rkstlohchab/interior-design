@@ -56,7 +56,7 @@ export default function Delete() {
                 onClick={() => handleCardClick(blog._id)}
               >
                   <CardHeader className="gap-2 lg:mr-10 lg:my-10 max-sm:mt-8">
-                      <Image src={blog.image} alt="abc" width={350} height={210} className="w-[350px] h-[210px]"/>
+                      <Image src={blog.image} alt="abc" width={350} height={210} quality={40} className="w-[350px] h-[210px]"/>
                       <CardTitle className="font-normal">{blog.title}</CardTitle>
                       <CardDescription className="">{blog.description.split(' ').slice(0, 3).join(' ')}</CardDescription>
                   </CardHeader>

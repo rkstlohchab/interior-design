@@ -1,21 +1,13 @@
-import Image from "next/image";
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-
-  DropdownMenuSeparator,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
-
-
 const Header = () => {
     return (
-            <div className="flex flex-row justify-between items-center w-full h-[80px] py-[15px] lg:px-[70px] max-sm:px-10 bg-white z-40 border-t-[1.5px] border-black">
-                <div className="w-1/2 flex justify-start">
-                    <h1>Atom Designs</h1>
+            <div className="max-lg:text-[10px] lg:text-[13px] flex flex-row justify-between items-center w-full h-[65px] lg:py-[15px] lg:px-[70px] max-sm:px-10 bg-white z-40 border-gray-300 border-t-2 ">
+                <div className="w-1/2 flex justify-start flex-wrap flex-col">
+                    <p>Pno:- 8950520252</p>
+                    <p>Address:- Sec 67</p>
                 </div>
                 <div className="flex w-1/2 justify-end">
-                    <p>Copyright Atom Designs LTD.</p>
+                    <p></p>
+                    <p>Atom Designs</p>
                 </div>
 
 

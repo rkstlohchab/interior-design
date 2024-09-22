@@ -3,12 +3,12 @@ import Image from "next/image";
 const Page = () => {
   return (
     <div className="lg:px-[120px] lg:py-[30px] max-sm:px-10 max-sm:py-5">
-      {/* <Image
-            src="https://upload.wikimedia.org/wikipedia/commons/2/27/Nikken_Sekkei_company_logo.svg"
+      <Image
+            src="https://i.pinimg.com/originals/0e/82/32/0e82328f0ce045ffe96eb75b2170257f.jpg"
             alt="logo"
-            width={100}
+            width={1200}
             height={100}
-        /> */}
+        />
       <h1 className="text-2xl my-5">About Atom Designs</h1>
       <p className="">
         We aim to revolutionize how all spaces are utilized, creating
@@ -24,26 +24,18 @@ const Page = () => {
         meaningful experiences for everyone on board.
       </p>
 
-      {/* <div className="flex max-lg:flex-col my-10">
-        <p className="w-1/2">
-          Having completed both a Bachelor&apos;s and Master&apos;s degree in
-          Civil Engineering, with my thesis centered entirely on genuine
-          problem-solving, my journey commenced as an engineer. Driven by my
-          love for design, I transitioned to interior aesthetics. <br/>Since 2017, I
-          have led a talented team of architects, civil engineers, and interior
-          designers. We aim to create personalized designs that align with my
-          values and our company&apos;s unique offerings. Through our fusion of
-          innovation and aesthetic sensibility, we provide people with an
-          exceptional design experience that they will r e m e m b e r.
-        </p>
-        <Image
-          src="/Atom2.png"
-          alt="logo"
-          width={1000}
-          height={500}
-          className="w-1/2"
-        />
-      </div> */}
+      <h1 className="text-2xl my-5">Brand vision</h1>
+      <p>
+        We're skilled at combining everything necessary to turn our clients'
+        ideas into reality. We've been dedicated to hearing out their ideas,
+        learning their vision, and working together to create efficient spaces,
+        live environments, and practical design. We draw new paths by blending
+        experience, creativity, craftsmanship, and passion to deliver results
+        that go harmoniously. With an accumulative experience of over 15 years.
+        We team up with our clients, designing departments to achieve
+        environments that provide true and meaningful experiences for everyone
+        on board.
+      </p>
     </div>
   );
 };

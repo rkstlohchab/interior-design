@@ -13,7 +13,10 @@ const nextConfig = {
       "images.unsplash.com",
       "www.unsplash.com",
       "cdn.pixabay.com",
-      
+      "t4.ftcdn.net",
+      "static.vecteezy.com",
+      "www.clarksonbuilders.co.uk",
+      "i.pinimg.com",
     ],
   },
 };

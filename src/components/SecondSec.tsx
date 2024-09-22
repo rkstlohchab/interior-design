@@ -8,10 +8,11 @@ export default function SecondSec() {
         <div className="text-center items-center">
           
           <Image
-            src="https://drive.google.com/uc?export=view&id=1xe8Vbb-oMjCJfGGzH3Nf_P4TzCnxXUNY"
+            src="https://drive.google.com/uc?export=view&id=1zdS_pKYo6VjlgN53JF0j44vZTN687oox"
             alt="logo"
             width={350}
             height={350}
+            quality={40}
             className="mx-auto my-4 w-full max-w-[150px] md:max-w-[250px] lg:max-w-[350px]"
           />
           <p className="text-xs md:text-sm lg:text-base mt-1">SINCE 2000</p>

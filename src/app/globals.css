@@ -2,12 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: 'Futura';
-  src: url('/public/futura/FuturaLight.ttf') format('ttf');
-  font-weight: 100;
-  font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 
 @layer base {
   :root {
@@ -78,7 +73,13 @@
 
 /* globals.css */
 
-
 body {
-  font-family: 'Futura', sans-serif;
+  font-family: 'Alata', sans-serif;
+}
+
+
+.shadow {
+  -webkit-box-shadow: 5px 5px 7px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 5px 5px 7px -4px rgba(0, 0, 0, 0.75);
+  box-shadow: 5px 5px 7px -4px rgba(0, 0, 0, 0.75);
 }

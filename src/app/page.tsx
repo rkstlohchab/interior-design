@@ -1,7 +1,9 @@
 
 import Footer from "@/components/Footer"
+import Founder from "@/components/founder"
 import Hero from "@/components/Hero"
 import Log from "@/components/Log"
+import Review from "@/components/review"
 import SecondSec from "@/components/SecondSec"
 import ThirdSec from "@/components/ThirdSec"
 
@@ -17,8 +19,9 @@ export default function Page() {
       <Hero />
       <SecondSec />
       <ThirdSec />
-      <Separator className="my-10" />
-      <Log />
+      <Founder />
+      {/* <Separator className="my-10" /> */}
+      <Review />
       <Footer />
       </>
   )

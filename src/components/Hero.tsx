@@ -76,7 +76,7 @@ const Hero = () => {
                         alt={`Hero Image ${index + 1}`} 
                         layout='fill'
                         objectFit='cover'
-                        quality={70}
+                        quality={40}
                     />
                 </div>
             ))}

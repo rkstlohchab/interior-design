@@ -45,6 +45,7 @@ export default function Log() {
                 <Image
                     src={blog.image}
                     alt={blog.title}
+                    quality={40}
                     width={350} height={210} className="w-[350px] max-lg:h-[170px] lg:h-[210px]"
                 />
                 <CardTitle className="font-normal ">{blog.title}</CardTitle>
