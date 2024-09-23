@@ -44,7 +44,7 @@ export default function ProjectDetails({ params }: any ) {
         <div className="lg:px-[120px] lg:py-[30px] max-sm:px-10 max-sm:py-5 ">
             <Image src={project.projectImages[0]} alt={project.projectTitle} width={1200} height={1200} quality={40}/>
             <h1 className="text-4xl my-4">{project.projectTitle}</h1>
-            <p>{project.projectDescription}</p>
+            <p dangerouslySetInnerHTML={{ __html: project.projectDescription.replace(/\n/g, '<br />') }} />
 
             <Separator className="my-5" />
             
@@ -63,15 +63,15 @@ export default function ProjectDetails({ params }: any ) {
                                 <div className="p-1 ">
                                     <Card>
                                         <CardContent className="flex aspect-square items-center justify-center p-6 bg-[rgb(241,241,241)] ">
-                                            <Image src={projectImages} alt={project.projectTitle} width={300} height={200} className="max-md:w-[70%] max-md:items-center max-md:justify-center"/>
+                                            <Image src={projectImages} alt={project.projectTitle} width={300} height={200} className="max-md:w-[100%] max-md:items-center max-md:justify-center"/>
                                         </CardContent>
                                     </Card>
                                 </div>
                             </CarouselItem>
                         ))}
                     </CarouselContent>
-                    <CarouselPrevious />
-                    <CarouselNext />
+                    <CarouselPrevious  className="max-md:hidden"/>
+                    <CarouselNext className="max-md:hidden" />
                 </Carousel>
             </div>
 

@@ -15,7 +15,7 @@ import Autoplay from "embla-carousel-autoplay"
 
 const Review = () => {
   return (
-    <div className="lg:mb-20 flex flex-col w-full items-center">
+    <div className="lg:mb-20 flex flex-col w-full items-center bg-[#f1f1f1]">
       <div className="w-full">
         <h2 className="text-2xl text-center my-5 lg:my-10">
             What People are saying

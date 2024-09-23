@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const Founder = () => {
   return (
-    <div className="flex lg:px-[100px] max-lg:px-10 max-lg:flex-col lg:py-[100px] max-lg:py-10 items-center">
+    <div className="flex lg:px-[100px] max-lg:px-10 max-lg:flex-col lg:py-[100px] max-lg:py-10 items-center ">
         <div className="max-lg:w-full lg:w-1/2 flex items-center justify-center">
             <Image
             
