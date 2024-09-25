@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function SecondSec() {
   return (
-      <div className="flex items-center justify-center lg:h-[100vh] bg-white font-roboto max-md:h-[40vh] mb-10">
+      <div className="flex items-center justify-center lg:h-[70vh] bg-white font-roboto max-md:h-[40vh] mb-10">
         <div className="text-center items-center">
           
           <Image
