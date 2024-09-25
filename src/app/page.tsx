@@ -20,8 +20,9 @@ export default function Page() {
       <SecondSec />
       <ThirdSec />
       <Founder />
-      {/* <Separator className="my-10" /> */}
+      {/* <Separator  /> */}
       <Review />
+      {/* <Log /> */}
       <Footer />
       </>
   )

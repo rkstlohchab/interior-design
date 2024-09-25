@@ -19,7 +19,7 @@ export const testimonials = [
         company: "A Happy Customer"
     },
     {
-        text: "I have known InteriorCoach team through youtube and was fascinated by their skills. I got the interior designing work done by their team and it came out amazingly great. The designer Bobby Yadav is one of the best designers I have seen",
+        text: "I have known Atom Design team through youtube and was fascinated by their skills. I got the interior designing work done by their team and it came out amazingly great. The designers is one of the best designers I have seen",
         user: "Siddhartha Ghosal",
         company: "A Happy Customer"
     },

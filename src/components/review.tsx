@@ -15,14 +15,14 @@ import Autoplay from "embla-carousel-autoplay"
 
 const Review = () => {
   return (
-    <div className="lg:mb-20 flex flex-col w-full items-center bg-[#f1f1f1]">
+    <div className="lg:mb-15 flex flex-col w-full items-center bg-[#f1f1f1]">
       <div className="w-full">
-        <h2 className="text-2xl text-center my-5 lg:my-10">
+        <h2 className="text-2xl text-center my-5 lg:mt-10">
             What People are saying
         </h2>
       </div>
       <Carousel 
-        className="flex flex-wrap items-center justify-center max-lg:w-full w-1/2"
+        className="flex flex-wrap items-center justify-center max-lg:w-full w-1/3"
         plugins={[
                         Autoplay({
                         delay: 2000,
