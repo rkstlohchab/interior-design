@@ -9,7 +9,7 @@ export const navLinks = [
 
 export const testimonials = [
     {
-        text: "I have renovated my home in Gurgaon, and the best part is that we have choosen the Atom design as our interior designer.They have every skill which needs to be there to design and construct the building, specially Gaurav ji... have very creative mind, he always top on the challenges faced during the renovation with his ideas to overcome the issue. He is having architect and designer knowledge which is prefect blend. We had a very good experience with them while working, thanks for the efforts.",
+        text: "I have renovated my home in Gurgaon, They have every skill which needs to be there to design and construct the building, specially Gaurav ji... have very creative mind, he always top on the challenges faced during the renovation with his ideas to overcome the issue. We had a very good experience with them while working, thanks for the efforts.",
         user: "Ankush Jain",
         company: "A Happy Customer"
     },

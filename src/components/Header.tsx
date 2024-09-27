@@ -1,4 +1,4 @@
-import { Search, SeparatorVertical } from "lucide-react";
+
 import Image from "next/image";
 import {
   DropdownMenu,
@@ -48,7 +48,8 @@ const Header = () => {
                         </li>
                     </ul>
                 </div>
-                <div className="lg:hidden flex w-10">
+
+                <div className="lg:hidden flex w-full justify-end h-full">
                     <DropdownMenu>
                         <DropdownMenuTrigger>
                             <Image
@@ -59,9 +60,8 @@ const Header = () => {
                                 quality={40}
                             />
                         </DropdownMenuTrigger>
-                            <DropdownMenuContent>
-                                <DropdownMenuSeparator />
-                                    <ul className="flex gap-5 text-[13.48px] items-center flex-col">
+                            <DropdownMenuContent className="w-screen backdrop-blur-md bg-white/30">
+                                    <ul className="flex gap-5 text-lg items-end flex-col m-10">
                                         <li className="text-black hover:text-orange-400 active:text-orange-400">
                                             <a href="/projects">PROJECTS</a>
                                         </li>

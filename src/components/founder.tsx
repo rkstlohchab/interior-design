@@ -1,11 +1,14 @@
+"use client"
+
 import Image from "next/image"
 
+
 const Founder = () => {
+
   return (
     <div className="flex lg:px-[100px] max-lg:px-10 max-lg:flex-col lg:py-[30px] max-lg:py-10 items-center">
         <div className="max-lg:w-full lg:w-1/2 flex items-center justify-center">
             <Image
-            
                 src="https://drive.google.com/uc?export=view&id=1a2bET80W5N4h-lmDhlKFmZ1f8_NqcsH-"
                 alt="Picture of the author"
                 width={600}

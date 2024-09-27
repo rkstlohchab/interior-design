@@ -36,15 +36,15 @@ export default function Projects() {
             {projectsList?.map((project) => (
                 <Card
                     key={project._id}
-                    className="m-0 p-0 border-none shadow-none inline-block cursor-pointer"
+                    className="p-3 inline-block cursor-pointer items-center lg:mr-10 lg:my-10 max-sm:mt-8"
                     onClick={() => handleCardClick(project._id)}
                 >
-                    <CardHeader className="gap-2 lg:mr-10 lg:my-10 max-sm:mt-8">
+                    <CardHeader className="gap-2 ">
                         <Image
                             src={project.projectImages[0]}
                             alt={project.projectTitle}
                             quality={40}
-                            width={350} height={210} className="w-[350px] max-lg:h-[170px] lg:h-[210px]"
+                            width={350} height={210} className="w-[350px] max-lg:h-[140px] lg:h-[240px]"
                         />
                         <CardTitle className="font-normal ">{project.projectTitle}</CardTitle>
                         <CardDescription className="">{project.projectDescription.split(' ').slice(0, 3).join(' ')}</CardDescription>

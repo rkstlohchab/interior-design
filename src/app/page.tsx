@@ -23,7 +23,6 @@ export default function Page() {
       {/* <Separator  /> */}
       <Review />
       {/* <Log /> */}
-      <Footer />
       </>
   )
 }
