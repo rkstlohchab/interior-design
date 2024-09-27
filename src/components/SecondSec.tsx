@@ -10,7 +10,7 @@ export default function SecondSec() {
     <div 
       className="flex items-center justify-center lg:h-[70vh] bg-white font-roboto max-md:h-[40vh] mb-10"
     >
-      <div className="text-center items-center fade-up">
+      <div className="text-center items-center ">
         <div>
           <Image
             src="https://drive.google.com/uc?export=view&id=1zdS_pKYo6VjlgN53JF0j44vZTN687oox"
