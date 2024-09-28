@@ -41,13 +41,14 @@ const Review = () => {
   }, []);
 
   return (
-    <div className="lg:mb-15 flex flex-col w-screen h-screen items-center bg-[#e8e8e8] fade-up">
+    <div className="lg:mb-15 flex flex-col w-screen items-center bg-[#e8e8e8] fade-up">
 
       <h2 className="text-lg text-center my-5 lg:my-10 text-black w-full">
         T E S T I M O N I A L S
       </h2>
 
-      <div className="m-10 lg:hidden">
+      <div className="w-[90%]">
+          <div className="m-10 lg:hidden">
         <Carousel
           plugins={[
                 Autoplay({
@@ -59,7 +60,7 @@ const Review = () => {
               
               {testimonials.map((testimonial, index) => (
                 <CarouselItem key={index} >
-                  <div className="bg-white lg:hidden rounded-sm w-full h-[500px] flex flex-col items-center justify-around shadow-sm">
+                  <div className="bg-white rounded-sm w-full h-[500px] flex flex-col items-center justify-around shadow-sm">
                     <p className="text-justify max-lg:text-sm flex flex-wrap w-2/3">{testimonial.text}</p>
                     <div className="">
                       <h3 className="text-2xl font-bold">{testimonial.user}</h3>
@@ -100,12 +101,7 @@ const Review = () => {
         </Carousel>
       </div>
 
-      <ul className="flex text-[12px] items-center">
-        <li className="text-black hover:text-blue-400 active:text-blue-400">
-            <Button className="bg-[#2f2f2f] rounded-none"><a href="https://forms.gle/YDVrxun83nFkhJst6">CONTACT US</a></Button>
-        </li>
-      </ul>
-
+      </div>
 
     </div>
 

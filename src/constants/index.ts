@@ -23,5 +23,19 @@ export const testimonials = [
         user: "Siddhartha Ghosal",
         company: "A Happy Customer"
     },
-    
+    {
+        text: "The consultancy services provided by the team were exceptional. They guided us through every step of our office renovation, ensuring that we made informed decisions. Their expertise and professionalism were evident throughout the project.",
+        user: "Ravi Kumar",
+        company: "A Happy Customer"
+    },
+    {
+        text: "We hired them for consultancy on our new restaurant design. Their insights and recommendations were invaluable. They helped us create a space that is both functional and aesthetically pleasing. Highly recommend their services!",
+        user: "Priya Sharma",
+        company: "A Happy Customer"
+    },
+    {
+        text: "Their consultancy services were top-notch. They provided us with detailed plans and suggestions that significantly improved our retail store layout. The team was always available to answer our questions and provide support.",
+        user: "Anita Desai",
+        company: "A Happy Customer"
+    }
 ];

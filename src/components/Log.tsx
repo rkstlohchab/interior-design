@@ -32,7 +32,7 @@ export default function Log() {
   };
 
   return (
-    <div className="lg:px-[120px] lg:py-[30px] max-sm:px-10 max-sm:py-5">
+    <div className="lg:px-[120px] lg:py-[30px] max-sm:px-10 max-sm:py-5 h-screen">
       <h1 className="w-full text-start text-2xl my-2">Blogs</h1>
 
       {blogList?.map((blog) => (
