@@ -18,30 +18,30 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 
 const Review = () => {
-  gsap.registerPlugin(ScrollTrigger);
+  // gsap.registerPlugin(ScrollTrigger);
 
-  useEffect(() => {
+  // useEffect(() => {
 
-    gsap.fromTo(
-      ".fade-up",
-      { opacity: 0, y: 20 }, // Initial state
-      {
-        opacity: 1,
-        y: 0,
-        duration: 0.5,
-        ease: "expo.out",
-        scrollTrigger: {
-          trigger: ".fade-up", // Trigger animation when this element enters the viewport
-          start: "top 80%",
-          end: "bottom 20%",
-          toggleActions: "play none none reverse", // Play on scroll in, reverse on scroll out
-        },
-      }
-      );
-  }, []);
+  //   gsap.fromTo(
+  //     ".fade-up",
+  //     { opacity: 0, y: 20 }, // Initial state
+  //     {
+  //       opacity: 1,
+  //       y: 0,
+  //       duration: 0.5,
+  //       ease: "expo.out",
+  //       scrollTrigger: {
+  //         trigger: ".fade-up", // Trigger animation when this element enters the viewport
+  //         start: "top 80%",
+  //         end: "bottom 20%",
+  //         toggleActions: "play none none reverse", // Play on scroll in, reverse on scroll out
+  //       },
+  //     }
+  //     );
+  // }, []);
 
   return (
-    <div className="lg:mb-15 flex flex-col w-screen items-center bg-[#e8e8e8] fade-up">
+    <div className="lg:mb-15 flex flex-col w-screen items-center bg-[#e8e8e8] fade-up mb-14">
 
       <h2 className="text-lg text-center my-5 lg:my-10 text-black w-full">
         T E S T I M O N I A L S
