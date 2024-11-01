@@ -30,21 +30,21 @@ export default function Projects() {
     };
     
     return (
-        <div className="lg:px-[120px] lg:py-[30px] max-sm:px-10 max-sm:py-5 h-screen">
+        <div className="lg:px-[120px] lg:py-[30px] max-sm:px-10 max-sm:py-5 h-screen mb-72">
             <h1 className="w-full text-start text-2xl">Projects List</h1>
             <Separator className="my-5" />
             {projectsList?.map((project) => (
                 <Card
                     key={project._id}
-                    className="p-3 inline-block cursor-pointer items-center lg:mr-10 lg:my-10 max-sm:mt-8"
+                    className="p-3 inline-block cursor-pointer items-center lg:mr-8 lg:my-10 max-sm:mt-4"
                     onClick={() => handleCardClick(project._id)}
                 >
-                    <CardHeader className="gap-2 ">
+                    <CardHeader className="gap-1">
                         <Image
                             src={project.projectImages[0]}
                             alt={project.projectTitle}
                             quality={40}
-                            width={350} height={210} className="w-[350px] max-lg:h-[140px] lg:h-[240px]"
+                            width={350} height={210} className="w-[340px] max-lg:h-[140px] lg:h-[240px]"
                         />
                         <CardTitle className="font-normal ">{project.projectTitle}</CardTitle>
                         <CardDescription className="">{project.projectDescription.split(' ').slice(0, 3).join(' ')}</CardDescription>

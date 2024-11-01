@@ -2,6 +2,7 @@
 import Footer from "@/components/Footer"
 import Founder from "@/components/founder"
 import Hero from "@/components/Hero"
+import InfiniteSlider from "@/components/infinteSlider"
 import Log from "@/components/Log"
 import Review from "@/components/review"
 import SecondSec from "@/components/SecondSec"
@@ -21,6 +22,7 @@ export default function Page() {
       <ThirdSec />
       <Founder />
       {/* <Separator  /> */}
+      {/* <InfiniteSlider /> */}
       <Review />
       {/* <Log /> */}
       </>

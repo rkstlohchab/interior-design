@@ -30,9 +30,8 @@ export default function Expertise() {
   };
   return (
     <>
-    <div className="lg:px-[120px] lg:py-[30px] max-sm:px-10 max-sm:py-5">
-    </div>
-    <div className="lg:px-[120px] lg:py-[30px] max-sm:px-10 max-sm:py-5">
+
+    <div className="lg:px-[120px] lg:py-[30px] max-sm:px-10 max-sm:py-5 mb-14">
       <h1 className="w-full text-start text-2xl my-5">Our Expertise</h1>
       <p>
         Our main goal is to make a real difference by adding value to society.

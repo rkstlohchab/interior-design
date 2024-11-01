@@ -49,57 +49,57 @@ const Review = () => {
 
       <div className="w-[90%]">
           <div className="m-10 lg:hidden">
-        <Carousel
-          plugins={[
-                Autoplay({
-                delay: 2000,
-                }),
-              ]}
-          >
-            <CarouselContent>
-              
-              {testimonials.map((testimonial, index) => (
-                <CarouselItem key={index} >
-                  <div className="bg-white rounded-sm w-full h-[500px] flex flex-col items-center justify-around shadow-sm">
-                    <p className="text-justify max-lg:text-sm flex flex-wrap w-2/3">{testimonial.text}</p>
-                    <div className="">
-                      <h3 className="text-2xl font-bold">{testimonial.user}</h3>
-                      <p className="text-xxl font-bold">{testimonial.company}</p>
-                    </div>
-                  </div>
-                </CarouselItem>
-              ))}
+            <Carousel
+              plugins={[
+                    Autoplay({
+                    delay: 2000,
+                    }),
+                  ]}
+              >
+                <CarouselContent>
+                  
+                  {testimonials.map((testimonial, index) => (
+                    <CarouselItem key={index} >
+                      <div className="bg-white rounded-sm w-full h-[500px] flex flex-col items-center justify-around shadow-sm">
+                        <p className="text-justify max-lg:text-sm flex flex-wrap w-2/3">{testimonial.text}</p>
+                        <div className="">
+                          <h3 className="text-2xl font-bold">{testimonial.user}</h3>
+                          <p className="text-xxl font-bold">{testimonial.company}</p>
+                        </div>
+                      </div>
+                    </CarouselItem>
+                  ))}
 
-              
-            </CarouselContent>
-        </Carousel>
-      </div>
+                  
+                </CarouselContent>
+            </Carousel>
+          </div>
 
-      <div className="m-10 max-lg:hidden">
-        <Carousel
-          plugins={[
-                Autoplay({
-                delay: 2000,
-                }),
-              ]}
-          >
-            <CarouselContent>
-              
-              {testimonials.map((testimonial, index) => (
-                <CarouselItem key={index} className="max-lg:hidden basis-1/3">
-                  <div className="bg-white max-lg:hidden rounded-sm w-[350px] h-[500px] flex flex-col items-center justify-around shadow-sm">
-                    <p className="text-justify max-lg:text-sm flex flex-wrap w-2/3">{testimonial.text}</p>
-                    <div className="">
-                      <h3 className="text-2xl font-bold">{testimonial.user}</h3>
-                      <p className="text-xxl font-bold">{testimonial.company}</p>
-                    </div>
-                  </div>
-                </CarouselItem>
-              ))}
-              
-            </CarouselContent>
-        </Carousel>
-      </div>
+          <div className="m-10 max-lg:hidden">
+            <Carousel
+              plugins={[
+                    Autoplay({
+                    delay: 2000,
+                    }),
+                  ]}
+              >
+                <CarouselContent>
+                  
+                  {testimonials.map((testimonial, index) => (
+                    <CarouselItem key={index} className="max-lg:hidden basis-1/3">
+                      <div className="bg-white max-lg:hidden rounded-sm w-[350px] h-[500px] flex flex-col items-center justify-around shadow-sm">
+                        <p className="text-justify max-lg:text-sm flex flex-wrap w-2/3">{testimonial.text}</p>
+                        <div className="">
+                          <h3 className="text-2xl font-bold">{testimonial.user}</h3>
+                          <p className="text-xxl font-bold">{testimonial.company}</p>
+                        </div>
+                      </div>
+                    </CarouselItem>
+                  ))}
+                  
+                </CarouselContent>
+            </Carousel>
+          </div>
 
       </div>
 

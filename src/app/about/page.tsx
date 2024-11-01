@@ -53,7 +53,7 @@ const Page = () => {
         </p>
       </div>
 
-      <div className="flex flex-col items-center justify-center p-4">
+      <div className="flex flex-col items-center justify-center p-4 mb-14">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-2 w-full">
           <div className="bg-gray-100 p-8 text-center flex flex-col items-center fade-up">
             <h2 className="text-center text-lg font-bold mb-4">BRAND VISION</h2>
