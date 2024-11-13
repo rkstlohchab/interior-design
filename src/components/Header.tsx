@@ -24,6 +24,7 @@ const Header = () => {
                         />
                     </a>
                 </div>
+
                 <div className="flex w-full max-lg:hidden justify-between">
                     <ul className="flex gap-5 text-[12px] items-center">
                         <li className="text-black hover:text-orange-400 active:text-orange-400">
@@ -42,7 +43,7 @@ const Header = () => {
                             <a href="/blog">BLOG</a>
                         </li>
                     </ul>
-                    <ul className="flex text-[12px] items-center">
+                    <ul className="flex text-[7px] items-center">
                         <li className="text-black hover:text-blue-400 active:text-blue-400">
                             <Button className="bg-orange-500"><a href="https://forms.gle/YDVrxun83nFkhJst6">CONTACT US</a></Button>
                         </li>

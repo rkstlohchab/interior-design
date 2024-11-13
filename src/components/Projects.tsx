@@ -34,9 +34,25 @@ export default function Projects() {
             <h1 className="w-full text-start text-2xl">Projects List</h1>
             <Separator className="my-5" />
             {projectsList?.map((project) => (
+                // <Card
+                //     key={project._id}
+                //     className="p-3 inline-block cursor-pointer items-center lg:mr-8 lg:my-10 max-sm:mt-4 "
+                //     onClick={() => handleCardClick(project._id)}
+                // >
+                //     <CardHeader className="gap-1">
+                //         <Image
+                //             src={project.projectImages[0]}
+                //             alt={project.projectTitle}
+                //             quality={40}
+                //             width={350} height={210} className="w-[340px] max-lg:h-[140px] lg:h-[240px]"
+                //         />
+                //         <CardTitle className="font-normal ">{project.projectTitle}</CardTitle>
+                //         <CardDescription className="">{project.projectDescription.split(' ').slice(0, 3).join(' ')}</CardDescription>
+                //     </CardHeader>
+                // </Card>
                 <Card
                     key={project._id}
-                    className="p-3 inline-block cursor-pointer items-center lg:mr-8 lg:my-10 max-sm:mt-4"
+                    className="p-3 inline-block cursor-pointer items-center lg:mr-8 lg:my-10 max-sm:mt-4 relative group" // Add `group` for nested hover effects
                     onClick={() => handleCardClick(project._id)}
                 >
                     <CardHeader className="gap-1">
@@ -44,12 +60,23 @@ export default function Projects() {
                             src={project.projectImages[0]}
                             alt={project.projectTitle}
                             quality={40}
-                            width={350} height={210} className="w-[340px] max-lg:h-[140px] lg:h-[240px]"
+                            width={350}
+                            height={210}
+                            className="w-[340px] max-lg:h-[140px] lg:h-[240px]"
                         />
-                        <CardTitle className="font-normal ">{project.projectTitle}</CardTitle>
-                        <CardDescription className="">{project.projectDescription.split(' ').slice(0, 3).join(' ')}</CardDescription>
+                        <CardTitle className="font-normal">{project.projectTitle}</CardTitle>
+                        
+                        {/* Description wrapper */}
+                        <div className="absolute inset-0 bg-black bg-opacity-70 flex items-center justify-center opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                            <CardDescription className="text-white p-4">
+                                {project.projectDescription.split('\n').map((line, index) => (
+                                    <p key={index}>{line}</p>
+                                ))}
+                            </CardDescription>
+                        </div>
                     </CardHeader>
                 </Card>
+
             ))}
         </div>
     );

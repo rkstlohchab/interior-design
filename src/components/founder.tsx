@@ -17,18 +17,15 @@ const Founder = () => {
             />
         </div>
         <div className="max-lg:w-full lg:w-1/2 max-lg:py-10">
-            <p className="max-lg:text-[14px]">Having completed both a Bachelor&apos;s and Master&apos;s degree
-                in Civil Engineering, with my thesis centered entirely on
-                genuine problem-solving, my journey commenced as an
-                engineer. Driven by my love for design, I transitioned to
-                interior aesthetics.<br/><br/>
-                Since 2017, I have led a talented team of architects, civil
-                engineers, and interior designers. We aim to create
-                personalized designs that align with my values and our
-                company&apos;s unique offerings. Through our fusion of
-                innovation and aesthetic sensibility, we provide people
-                with an exceptional design experience that they will<br/>
-                remember.
+            <p className="max-lg:text-[14px]">
+                With a unique blend of engineering expertise and creative vision, we bring a distinctive approach to interior design. Gourav&apos;s ever growing pursuit for perfection, driven by a passion for innovative problem-solving and beautiful spaces, we believe in genuine and seamless integration of highly functional and practical design
+                <br/>
+                <br/>
+                Since 2017, Gourav Grewal has been leading a growing team of talented architects, civil engineers and interior designers. This fusion of multi domain expertise allows us to create personalized designs that seamlessly blend functionality with aesthetic appeal. 
+                <br/>
+                <br/>
+                ATOM is synonymous with exceptional design that exceeds clients&apos; expectations and leaves lasting impressions.
+                At ATOM, we pride ourselves on our ability to translate your visions into reality. Through our innovative approach and commitment to excellence, we strive to create spaces that are truly one-of-a-kind and reflect your personality and lifestyle.
 
             </p>
         </div>

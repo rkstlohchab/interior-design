@@ -18,7 +18,7 @@ export default function Page() {
   return (
     <>
       <Hero />
-      <SecondSec />
+      {/* <SecondSec /> */}
       <ThirdSec />
       <Founder />
       {/* <Separator  /> */}

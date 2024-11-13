@@ -62,7 +62,7 @@ const Hero = () => {
     }
     return (
         <div 
-            className="lg:w-screen lg:h-svh relative overflow-hidden flex items-center justify-center m-0 p-0 box-border max-lg:h-[40vh]"
+            className="lg:w-screen lg:h-svh relative overflow-hidden flex items-center justify-center m-0 p-0 box-border max-lg:h-[40vh] mb-2"
         >
             {projectsList?.map((project, index) => (
                 <div
