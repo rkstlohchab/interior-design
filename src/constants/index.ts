@@ -29,7 +29,7 @@ export const testimonials = [
         company: "A Happy Customer"
     },
     {
-        text: "We hired them for consultancy on our new restaurant design. Their insights and recommendations were invaluable. They helped us create a space that is both functional and aesthetically pleasing. Highly recommend their services!",
+        text: "We hired them for consultancy on our new restaurant design. Their insights, recommendations were invaluable. They helped us create a space that is both functional and aesthetically pleasing. Highly recommend their services!",
         user: "Priya Sharma",
         company: "A Happy Customer"
     },

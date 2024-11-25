@@ -115,19 +115,7 @@ const AccordinMy = () => {
             Urban
           </AccordionTrigger>
           <AccordionContent className="text-white stroke-black mt-2 lg:p-20 max-lg:p-4 bg-opacity-75">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
-            sunt quibusdam tempora tempore, ipsam impedit facere aliquid earum,
-            maiores hic omnis pariatur autem officiis non maxime vitae
-            blanditiis iste animi ut. Nulla recusandae eos perferendis ipsa
-            dolore non tempore ipsam totam reprehenderit exercitationem natus,
-            nemo neque! Consequatur debitis quod provident itaque ex
-            repellendus, assumenda, doloremque incidunt id quam consectetur
-            dignissimos optio laudantium officiis porro ipsum. Libero at
-            excepturi nulla tenetur! Itaque voluptas distinctio quasi adipisci
-            accusamus, dolores amet reprehenderit? Provident quia maxime natus
-            debitis doloribus nemo, perspiciatis nesciunt blanditiis earum
-            corporis nihil atque quibusdam dolores voluptatum porro ipsum amet.
-            Nostrum!
+            Atom Design is dedicated to creating urban spaces that are sustainable, functional, and aesthetically pleasing. Our urban design team works on a variety of projects, from small community spaces to large city planning initiatives. We focus on integrating green spaces, enhancing public transportation, and promoting walkability to create vibrant, livable cities. By collaborating with local governments, developers, and communities, we ensure that our designs meet the needs of all stakeholders. Our approach combines innovative design principles with a deep understanding of urban dynamics, resulting in spaces that foster social interaction, economic growth, and environmental sustainability.
           </AccordionContent>
         </AccordionItem>
       </Accordion>

@@ -51,7 +51,7 @@ const Page = () => {
           Our process begins with a deep understanding of your needs and aspirations. We collaborate with you to craft designs that align with your vision and lifestyle—every detail carefully considered to ensure a seamless, harmonious result. Whether designing a tranquil home, a dynamic office, or a transformative retail space, we aim for nothing short of perfection in every project.
           <br/>
           <br/>
-          At ATOM, we are committed to designing spaces where elegance and functionality coexist in perfect balance. From concept to completion, our dedicated team of designers, architects, and artisans work together to deliver spaces that elevate everyday living, enhancing your experience and bringing your vision to life.
+          We are committed to designing spaces where elegance and functionality coexist in perfect balance. From concept to completion, our dedicated team of designers, architects, and artisans work together to deliver spaces that elevate everyday living, enhancing your experience and bringing your vision to life.
 
         </p>
       </div>
@@ -61,7 +61,7 @@ const Page = () => {
           <div className="bg-gray-100 p-8 text-center flex flex-col items-center fade-up">
             <h2 className="text-center text-lg font-bold mb-4">BRAND VISION</h2>
             <p className="mb-4 w-2/3">
-              At ATOM, our vision is to craft spaces where elegance and functionality exist in perfect harmony.
+              Our vision is to craft spaces where elegance and functionality exist in perfect harmony.
             </p>
             <p className="mb-4 w-2/3">
               We are committed to designing environments that enhance everyday living and inspire memorable experiences.
