@@ -93,7 +93,7 @@ const Header = () => {
 
                 <div className="fixed bottom-0 z-40 max-lg:text-[10px] lg:text-[13px] flex flex-row justify-between items-center w-full h-[35px] lg:py-[15px] lg:px-[70px] max-sm:px-10 bg-white border-gray-300 border-t-2">
                     
-                    <div className="w-1/2 flex justify-start flex-wrap flex-row lg:gap-4 max-lg:gap-0 items-center">
+                    <div className="w-2/3 flex justify-start flex-wrap flex-row lg:gap-4 max-lg:gap-0 items-center">
                         <div className="flex items-center">
                             <PhoneCallIcon className='w-4 max-lg:w-3 max-lg:h-2'/>
                             <p>8950520252</p>
@@ -104,7 +104,7 @@ const Header = () => {
                             <p>Ansal Esencia, sec 67 , gurgaon</p>
                         </div>
                     </div>
-                    <div className="flex w-1/2 justify-end gap-2 align-center items-baseline">
+                    <div className="flex w-1/3 justify-end gap-2 align-center items-baseline">
                         <p>
                             <a href="https://www.linkedin.com/in/gourav-g-b9949b135/">
                                 <LinkedInIcon />
