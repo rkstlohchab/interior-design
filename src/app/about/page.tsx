@@ -40,9 +40,9 @@ const Page = () => {
           width={1200}
           height={100}
         />
-        <h1 className="text-2xl my-5">About Atom Designs</h1>
-        <p>
-          At ATOM, we believe that great design is built on balance, harmony, and perfect functionality—just like the smallest unit of matter itself. Like the atom, where electrons, protons, and neutrons work in perfect synchrony, our designs are a delicate blend of form and function, elegance and utility, creativity and precision.
+        <h1 className="text-2xl my-5">At Atom Designs</h1>
+        <p className="text-sm">
+          We believe that great design is built on balance, harmony, and perfect functionality—just like the smallest unit of matter itself. Like the atom, where electrons, protons, and neutrons work in perfect synchrony, our designs are a delicate blend of form and function, elegance and utility, creativity and precision.
           <br/>
           <br/>
           Founded with the vision to craft spaces that resonate with beauty and purpose, ATOM brings a unique approach to interior design. We combine timeless design principles with modern sensibilities, ensuring every project feels both current and enduring. Each space we create is a reflection of our core belief that every element must complement and enhance the others, resulting in an environment that is as visually striking as it is practical.
@@ -60,16 +60,16 @@ const Page = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-2 w-full">
           <div className="bg-gray-100 p-8 text-center flex flex-col items-center fade-up">
             <h2 className="text-center text-lg font-bold mb-4">BRAND VISION</h2>
-            <p className="mb-4 w-2/3">
+            <p className="mb-4 w-2/3 text-sm">
               Our vision is to craft spaces where elegance and functionality exist in perfect harmony.
             </p>
-            <p className="mb-4 w-2/3">
+            <p className="mb-4 w-2/3 text-sm">
               We are committed to designing environments that enhance everyday living and inspire memorable experiences.
             </p>
-            <p className="mb-4 w-2/3">
+            <p className="mb-4 w-2/3 text-sm">
               By blending timeless design principles with innovation, we create spaces that are both visually appealing and practical, tailored to modern lifestyles.
             </p>
-            <p className="w-2/3">
+            <p className="w-2/3 text-sm">
               For many years, we have worked hand-in-hand with clients, designing
               solutions and environments that create truly meaningful experiences.
             </p>
@@ -79,7 +79,7 @@ const Page = () => {
           <div className="flex flex-col justify-between">
             <div className="bg-gray-100 p-14 mb-2 fade-up">
               <h2 className="text-center text-lg font-bold mb-4">ATOM</h2>
-              <p className="text-center mb-10">
+              <p className="text-center mb-10 text-sm">
                 Artful Techniques Optimize Modern Design
               </p>
             </div>
@@ -89,9 +89,9 @@ const Page = () => {
 
             <div className="bg-gray-100 p-8 fade-up">
               <h2 className="text-center text-lg font-bold mb-4">MOTTO</h2>
-              <p className="text-center mb-2">More than creative</p>
-              <p className="text-center mb-2">Immutability</p>
-              <p className="text-center">Fair and neutral manner</p>
+              <p className="text-center mb-2 text-sm">More than creative</p>
+              <p className="text-center mb-2 text-sm">Immutability</p>
+              <p className="text-center text-sm">Fair and neutral manner</p>
             </div>
           </div>
         </div>

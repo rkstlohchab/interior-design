@@ -17,7 +17,7 @@ const Founder = () => {
             />
         </div>
         <div className="max-lg:w-full lg:w-1/2 max-lg:py-10">
-            <p className="max-lg:text-[14px]">
+            <p className="text-sm">
                 With a unique blend of engineering expertise and creative vision, we bring a distinctive approach to interior design. Gourav&apos;s ever growing pursuit for perfection, driven by a passion for innovative problem-solving and beautiful spaces, we believe in genuine and seamless integration of highly functional and practical design
                 <br/>
                 <br/>

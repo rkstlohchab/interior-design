@@ -41,18 +41,14 @@ export default function ProjectDetails({ params }: any ) {
     console.log(project.projectImages);
 
     return (
-        <div className="lg:px-[120px] lg:py-[30px] max-sm:px-10 max-sm:py-5 ">
+    <div className="lg:px-[120px] lg:py-[30px] max-sm:px-10 max-sm:py-5 mb-10">
             {/* <Image src={project.projectImages[0]} alt={project.projectTitle} width={1200} height={1200} quality={40}/> */}
 
             
             <div className="w-full lg:h-[800px] max-lg:h-[400px] flex justify-center items-center overflow-hidden">
                 <Carousel 
                     className="w-full max-w-m"
-                     plugins={[
-                        Autoplay({
-                        delay: 2000,
-                        }),
-                    ]}
+                    // 
                 >
                     <CarouselContent>
                         {project.projectImages?.map((projectImages, index) => (

@@ -7,8 +7,17 @@ import { useQuery } from "convex/react";
 import { api } from "@/../convex/_generated/api";
 import Loader from './Loader';
 
+
+// Static imports for images
+import hero1 from "../../public/hero1.png";
+import hero2 from "../../public/hero2.png";
+import hero3 from "../../public/hero3.png";
+import hero4 from "../../public/hero4.png";
+
+
+
 const Hero = () => {
-    const projectsList = useQuery(api.projects.getProjects);
+    const projectsList = [hero1, hero2, hero3, hero4];
 
 
     const imageRefs = useRef<Array<HTMLDivElement | null>>([]);
@@ -55,7 +64,7 @@ const Hero = () => {
         return () => {
             tl.kill(); // Cleanup the timeline when the component unmounts or updates
         };
-    }, [projectsList]); // Re-run the animation only when projectsList changes
+    }); // Re-run the animation only when projectsList changes
     
     if (!projectsList) {
         return <Loader />;
@@ -72,7 +81,7 @@ const Hero = () => {
                     style={{ zIndex: index }} // Ensure proper stacking order
                 >
                     <Image 
-                        src={project.projectImages[0]} 
+                        src={project} 
                         alt={`Hero Image ${index + 1}`} 
                         layout='fill'
                         objectFit='cover'

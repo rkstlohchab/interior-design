@@ -33,7 +33,7 @@ export default function Expertise() {
 
     <div className="lg:px-[120px] lg:py-[30px] max-sm:px-10 max-sm:py-5 mb-14">
       <h1 className="w-full text-start text-2xl my-5">Our Expertise</h1>
-      <p>
+      <p className="text-sm">
         Our main goal is to make a real difference by adding value to society.
         We focus on creating exciting experiences and places that feel timeless,
         using our knowledge gained from eight years of success in various areas.
@@ -47,7 +47,7 @@ export default function Expertise() {
 
       <Separator className="my-5" />
 
-      {blogList?.map((blog) => (
+      {/* {blogList?.map((blog) => (
         <Card 
           key={blog._id} 
           className=" m-0 p-0 border-none shadow-none inline-block "
@@ -59,7 +59,7 @@ export default function Expertise() {
                 <CardDescription className="">{blog.description.split(' ').slice(0, 3).join(' ')}</CardDescription>
             </CardHeader>
         </Card>
-        ))}
+        ))} */}
     </div>
     </>
   )
