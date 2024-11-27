@@ -36,7 +36,7 @@ export default function Projects() {
             {projectsList?.map((project) => (
                 <Card
                     key={project._id}
-                    className="p-3 inline-block cursor-pointer items-center lg:mr-8 lg:my-10 max-sm:mt-4 relative group" // Add `group` for nested hover effects
+                    className="p-3 inline-block cursor-pointer items-center lg:mr-8 lg:my-10 max-sm:mt-4 relative group xl:mr-4" // Add `group` for nested hover effects
                     onClick={() => handleCardClick(project._id)}
                 >
                     <CardHeader className="gap-1">

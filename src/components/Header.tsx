@@ -46,9 +46,11 @@ const Header = () => {
                                 <a href="/blog">BLOG</a>
                             </li>
                         </ul>
+                        
                         <ul className="flex text-[7px] items-center">
                             <li className="text-black hover:text-blue-400 active:text-blue-400">
-                                <Button className="bg-orange-500"><a href="https://forms.gle/YDVrxun83nFkhJst6">CONTACT US</a></Button>
+                            
+                                <Button className="bg-orange-500"><a href="/contactus">CONTACT US</a></Button>
                             </li>
                         </ul>
                     </div>
@@ -95,13 +97,13 @@ const Header = () => {
                     
                     <div className="w-2/3 flex justify-start flex-wrap flex-row lg:gap-4 max-lg:gap-0 items-center">
                         <div className="flex items-center">
-                            <PhoneCallIcon className='w-4 max-lg:w-3 max-lg:h-2'/>
-                            <p>8950520252</p>
+                            <PhoneCallIcon className='w-4 max-lg:w-3 max-lg:h-2 lg:mr-2'/>
+                            <p> 8950520252</p>
                             
                         </div>
                         <div className="flex items-center">
-                            <LocateIcon className='w-4 max-lg:w-3 max-lg:h-2'/>
-                            <p>Ansal Esencia, sec 67 , gurgaon</p>
+                            <LocateIcon className='w-4 max-lg:w-3 max-lg:h-2 lg:mr-2'/>
+                            <p> Ansal Esencia, Sec 67 , Gurgaon</p>
                         </div>
                     </div>
                     <div className="flex w-1/3 justify-end gap-2 align-center items-baseline">
@@ -110,7 +112,7 @@ const Header = () => {
                                 <LinkedInIcon />
                             </a>
                         </p>
-                        <p>Atom Designs</p>
+                        <p></p>
                     </div>
 
                 </div>

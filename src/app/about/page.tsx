@@ -33,13 +33,18 @@ const Page = () => {
 
   return (
     <>
-      <div className="lg:px-[120px] lg:py-[30px] max-sm:px-10 max-sm:py-5">
+      <div className="flex lg:px-[120px] lg:py-[30px] max-sm:px-10 max-sm:py-5 justify-center items-center">
         <Image
           src="https://i.pinimg.com/originals/0e/82/32/0e82328f0ce045ffe96eb75b2170257f.jpg"
           alt="logo"
           width={1200}
           height={100}
         />
+        
+      </div>
+
+
+      <div className="lg:px-[120px] lg:py-[30px] max-sm:px-10 max-sm:py-5">
         <h1 className="text-2xl my-5">At Atom Designs</h1>
         <p className="text-sm">
           We believe that great design is built on balance, harmony, and perfect functionality—just like the smallest unit of matter itself. Like the atom, where electrons, protons, and neutrons work in perfect synchrony, our designs are a delicate blend of form and function, elegance and utility, creativity and precision.
@@ -87,7 +92,7 @@ const Page = () => {
 
 
 
-            <div className="bg-gray-100 p-8 fade-up">
+            <div className="bg-gray-100 p-8">
               <h2 className="text-center text-lg font-bold mb-4">MOTTO</h2>
               <p className="text-center mb-2 text-sm">More than creative</p>
               <p className="text-center mb-2 text-sm">Immutability</p>
