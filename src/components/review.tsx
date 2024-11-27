@@ -86,7 +86,7 @@ const Review = () => {
                 <CarouselContent>
                   
                   {testimonials.map((testimonial, index) => (
-                    <CarouselItem key={index} className="max-lg:hidden basis-1/3 xl:basis-1/5">
+                    <CarouselItem key={index} className="max-lg:hidden basis-1/3 ">
                       <div className="bg-[#E0E0E0] max-lg:hidden rounded-sm w-[300px] h-[440px] flex flex-col items-center justify-around shadow-sm">
                         <p className="text-justify text-sm flex flex-wrap w-2/3">{testimonial.text}</p>
                         <div className="">
